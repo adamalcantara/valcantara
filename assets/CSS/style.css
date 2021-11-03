@@ -25,6 +25,34 @@ li {
     margin: 0 30px;
 }
 
+.nav-link:hover {
+    cursor: pointer !important;
+}
+
+/* Travel Page */
+#accommodations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hotels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.hotelcard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotelimg {
+    width: 400px;
+}
+
 /* Things to do Page */
 #attractionspage {
     display: flex;
