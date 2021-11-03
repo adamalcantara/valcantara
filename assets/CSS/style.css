@@ -24,3 +24,27 @@ ul {
 li {
     margin: 0 30px;
 }
+
+/* Things to do Page */
+#attractionspage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#touristsection {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.touristcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.touristcardimg {
+    width: 300px;
+    
+}
